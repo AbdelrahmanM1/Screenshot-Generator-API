@@ -814,7 +814,6 @@ app.get('/', (req, res) => {
     name: '🖼️ Screenshot API',
     version: '2.1.0',
     status: 'running',
-    documentation: 'https://your-docs-url.com',
     endpoints: {
       'POST /screenshot': {
         description: 'Generate screenshot of a webpage',
