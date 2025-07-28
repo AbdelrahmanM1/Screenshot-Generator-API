@@ -817,6 +817,7 @@ app.get('/', (req, res) => {
     endpoints: {
       'POST /screenshot': {
         description: 'Generate screenshot of a webpage',
+        documentation: 'https://abdelrahmanm1.github.io/Screenshot-Generator-frontend',
         parameters: {
           url: 'string (required) - URL to screenshot',
           fullPage: 'boolean (default: true) - Capture full page',
