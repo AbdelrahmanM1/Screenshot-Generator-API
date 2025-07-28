@@ -947,7 +947,7 @@ app.use((req, res) => {
 
 // Start server
 const server = app.listen(PORT, () => {
-  logger.info(`✅ Enhanced Screenshot API running at http://localhost:${PORT}`);
+  logger.info(`✅ Screenshot API running at http://localhost:${PORT}`);
   logger.info(`📊 Health check: http://localhost:${PORT}/health`);
   logger.info(`📈 Metrics: http://localhost:${PORT}/metrics`);
   logger.info(`📚 Documentation: http://localhost:${PORT}/`);

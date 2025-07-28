@@ -59,7 +59,7 @@ module.exports = {
       user: 'deploy',
       host: 'your-server.com',
       ref: 'origin/main',
-      repo: 'git@github.com:yourusername/enhanced-screenshot-api.git',
+      repo: 'git@github.com:AbdelrahmanM1/Screenshot-Generator-API.git',
       path: '/var/www/screenshot-api',
       'pre-deploy-local': '',
       'post-deploy': 'npm install && pm2 reload ecosystem.config.js --env production',
